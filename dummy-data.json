@@ -1,0 +1,41 @@
+{
+	"location": {
+		"name": "Manama",
+		"region": "Al Manamah",
+		"country": "Bahrain",
+		"lat": 26.24,
+		"lon": 50.58,
+		"tz_id": "Asia/Bahrain",
+		"localtime_epoch": 1657643101,
+		"localtime": "2022-07-12 19:25"
+	},
+	"current": {
+		"last_updated_epoch": 1657642500,
+		"last_updated": "2022-07-12 19:15",
+		"temp_c": 35.0,
+		"temp_f": 95.0,
+		"is_day": 0,
+		"condition": {
+			"text": "Clear",
+			"icon": "//cdn.weatherapi.com/weather/64x64/night/113.png",
+			"code": 1000
+		},
+		"wind_mph": 6.9,
+		"wind_kph": 11.2,
+		"wind_degree": 350,
+		"wind_dir": "N",
+		"pressure_mb": 998.0,
+		"pressure_in": 29.47,
+		"precip_mm": 0.0,
+		"precip_in": 0.0,
+		"humidity": 63,
+		"cloud": 0,
+		"feelslike_c": 51.0,
+		"feelslike_f": 123.8,
+		"vis_km": 10.0,
+		"vis_miles": 6.0,
+		"uv": 8.0,
+		"gust_mph": 11.6,
+		"gust_kph": 18.7
+	}
+}
