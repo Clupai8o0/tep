@@ -8,7 +8,6 @@
     <title>Tep</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
     <link rel="icon" href="{{ url_for('static', filename='assets/logo-36x36.png') }}" type="image/x-icon">
-    <link rel="stylesheet" href="app.css">
   </head>
 
   <body>
@@ -19,7 +18,7 @@
 
     <main class="center-bar">
       <div>
-        <img src="Sunny.svg" alt="current weather" height="96" width="96" id="icon-weather" />
+        <img src="{{ url_for('static', filename='assets/icons/weather/Sunny.svg') }}" alt="current weather" height="96" width="96" id="icon-weather" />
         <span class="current-temperature">
           <h1 id="cel">35°C</h1>
           <h1 id="faren" hidden>98.7°F</h1>
@@ -33,9 +32,9 @@
     </main>
 
     <footer class="bottom-bar"> 
-      <img src="temp_mid.svg" alt="app logo" id="logo">
+      <img src="{{ url_for('static', filename='assets/icons/logo/temp_mid.svg') }}" alt="app logo" id="logo">
       <button id="signout-btn">
-        <img src="signout.svg" alt="signout btn icon" width="24" height="24" />
+        <img src="{{ url_for('static', filename='assets/icons/interaction/signout.svg') }}" alt="signout btn icon" width="24" height="24" />
       </button>
     </footer>
   </body>
