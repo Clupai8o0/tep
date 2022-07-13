@@ -14,13 +14,31 @@
   <body>
     <header class="top-bar">
       <h3 id="location">Manama, Al Manamah, Bahrain</h3>
-      <h4 id="time">12:00</h4>
+      <p id="time">12:00</p>
     </header>
 
     <main class="center-bar">
-      
+      <!-- TODO: needs responsiveness -->
+      <div>
+        <img src="Sunny.svg" alt="current weather" height="96" width="96" id="icon-weather" />
+        <span class="current-temperature">
+          <h1 id="cel">35°C</h1>
+          <h1 id="faren" hidden>98.7°F</h1>
+        </span>
+        <h3 id="weather-text">Sunny</h3>
+      </div>
+
+      <p id="weather-tip">
+        It's quite hot outside, so if you will be there for long, put on some sunscreen
+      </p>
     </main>
-    <footer class="bottom-bar"></footer>
+
+    <footer class="bottom-bar">
+      <img src="" alt="" id="logo">
+      <button id="signout-btn">
+        <img src="signout.svg" alt="signout btn icon" width="24" height="24" />
+      </button>
+    </footer>
   </body>
 
 </html>
