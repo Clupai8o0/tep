@@ -10,4 +10,57 @@
 
 body {
   background: #f8f8f8; /* Default bg color */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 72px;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+header, footer {
+  margin: 36px;
+  flex: 1/2;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+footer button#signout-btn {
+  background: #87AAED;
+  border: none;
+  border-radius: 48px;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 16px rgba(135, 170, 237, 0.8);
+}
+main {
+  flex: 1;
+  display: inherit;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 36px;
+}
+
+p#time {
+  opacity: 0.6;
+  font-weight: 600;
+  padding-top: 8px;
+}
+
+p#weather-tip {
+  line-height: 21.8px;
+  padding-top: 72px;
 }
