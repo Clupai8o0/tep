@@ -1,4 +1,4 @@
-![Tep Logo](./assets/logo.png)
+![Tep Logo](./static/assets/logo.png)
 
 # Tep
 
