@@ -1,0 +1,13 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+  font-family: Nunito, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0;
+
+  text-align: center;
+}
+
+body {
+  background: #f8f8f8; /* Default bg color */
+}
